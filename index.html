@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>HTML 5 Boilerplate</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <h1>FIRST YEAR AT IITB</h1>
+        <div>
+          <a href="#Introduction">Introduction</a>
+          <a href="#Activities">Activities</a>
+          <a href="#Learnings">Learnings</a>
+        </div>
+      </nav>
+    </header>
+
+    <div class="container">
+      <section id="Images">
+        <div class="slider-container">
+          <div class="slider">
+            <img
+              src="/images/IMG-20250618-WA0041.jpg"
+              alt="IIT Bombay Campus"
+            />
+            <img
+              src="/images/IMG-20250618-WA0040.jpg"
+              alt="IIT Bombay Campus"
+            />
+
+            <img
+              src="/images/IMG-20250618-WA0038.jpg"
+              alt="IIT Bombay Campus"
+            />
+            <img
+              src="/images/IMG-20250618-WA0045.jpg"
+              alt="IIT Bombay Campus"
+            />
+            <img
+              src="/images/IMG-20250618-WA0043.jpg"
+              alt="IIT Bombay Campus"
+            />
+            <img
+              src="/images/IMG-20250618-WA0042.jpg"
+              alt="IIT Bombay Campus"
+            />
+          </div>
+          <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+          <button class="next" onclick="moveSlide(1)">&#10095;</button>
+        </div>
+      </section>
+      <section id="Introduction">
+        <h1>Introduction</h1>
+        <p>
+          I am Surhud Naik and i just completed my first year in Btech.
+          Mechanical Engineering at IIT Bombay. It was not more than a year ago
+          that I joined this institute, but it feels like I have been here for a
+          long time. The first year at IIT Bombay was a enriching to say the
+          least and was certainly a year to remember. I made a lot of new
+          friends, learned a lot of new things, and had a lot of fun. I am from
+          Mumbai itself so there was less of a culture shock for me, as it was
+          for many of my to-be friends who had come from lesser known villages
+          and towns across the country. The first year was a time of
+          exploration, where I got to know the campus, the people, and the
+          culture of IIT Bombay.
+        </p>
+      </section>
+      <section id="Timeline">
+        <div class="timeline">
+          <div
+            class="event"
+            data-info="1st day at IITB"
+            style="left: 10%"
+          ></div>
+          <div
+            class="event"
+            data-info="Symphony Band Showcase"
+            style="left: 30%"
+          ></div>
+          <div
+            class="event"
+            data-info="Battle of the Bands"
+            style="left: 50%"
+          ></div>
+          <div
+            class="event"
+            data-info="Techfest Organiser"
+            style="left: 60%"
+          ></div>
+          <div class="event" data-info="Goonj" style="left: 70%"></div>
+          <div
+            class="event"
+            data-info="DevCom Selection"
+            style="left: 80%"
+          ></div>
+          <div class="event" data-info="Surbahaar" style="left: 90%"></div>
+        </div>
+        <div class="tooltip" id="tooltip">Hellooooooo</div>
+      </section>
+      <section id="Activities">
+        <h1>Activities</h1>
+        <p>
+          I was an active participant in various activities and events, most
+          notable of which are those which were conducted by Symphony, the Music
+          Club of IIT Bombay. I participated in the annual IITB band
+          competition, Battle of the Bands, where I formed a band with other
+          musically gifted students of my batch and played a medley of 3 songs.
+          I also performed as a drummer in Surbahaar, the annual Musical
+          Showcase where I was a part of the Garaj Garaj Rock band along with
+          other senior members of Symphony.
+          <br />
+          DevCom was one of the few clubs that caught my attention since the
+          start, and I went on to develop an interest in web development. I
+          learned HTML, CSS, and JavaScript, and created a few projects in the
+          course of the recruitment process for DevCom. I was finally selected
+          after 3 months of the rigorous recruitment process, and I am now a
+          member of the DevCom team as a developer.
+          <br />
+          I also volunteered as an organiser for TechFest, the annual technical
+          festival of IIT Bombay, where I helped in organising Robowars and
+          controlling the console during the main event for the three days of
+          the festival. Since all my friends from mumbai since the JEE days also
+          had holidays and were home, we were able to ennjoy Mood Indigo
+          together.
+          <br />
+          I got the rare chance of being a part of Goonj, the annual music
+          hostel GC, where I represented Hostel 17 as a drummer and composed a
+          song together with them. It was a great experience to work with Mtech
+          students of the campus and get exposed to their wide wisdom and
+          experience.
+        </p>
+      </section>
+
+      <section id="Learnings">
+        <h1>Learnings</h1>
+        <p>
+          The first year at IIT Bombay was a time of learning and growth. I
+          learned a lot about myself, my interests, and my passions. I learned
+          how to manage my time effectively, how to work in a team, and how to
+          balance academics with extracurricular activities.
+          <br />
+          IIT Bombay exposed me to a lot of new ideas and perspectives, and I
+          learned to think critically and creatively. I also learned the
+          importance of networking and building relationships with people from
+          different backgrounds and cultures. I learnt to live independently,
+          managing my own finances, and taking care of my own laundry.
+          <br />
+          I was allotted H1, which as everyone on campus knows, is an
+          adjustement to live in, but I saw it turn into a new home away from
+          home. In the end, the core lesson I learnt was that of getting by in
+          life when you are your own support system owning up to yourself and
+          your actions, and being responsible for your own decisions.
+        </p>
+      </section>
+    </div>
+    <footer>
+      <p></p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
